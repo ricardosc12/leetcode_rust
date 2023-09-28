@@ -14,12 +14,3 @@ impl Solution {
         nums
     }
 }
-
-fn main() {
-    let nums = vec![0,2,1];
-    let index = Solution::sort_array_by_parity(nums);
-
-    // let num = &nums[1..3];
-
-    println!("Solution: {index:?}");
-}
